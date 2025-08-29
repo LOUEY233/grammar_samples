@@ -1,0 +1,87 @@
+# PhysiCell Generated Files
+*.o
+project
+*.exe
+
+# Output directories
+outputs/
+output/
+output_SA*
+
+# Temporary files
+*.tmp
+*.temp
+__H.txt
+__W.txt
+__H1.txt
+__W1.txt
+__resize.txt
+
+# Archives and backups
+*.zip
+*.tar
+*.tar.gz
+archives/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Machine learning / AI related (for v-info directory)
+v-info/
+*.pth
+*.npy
+*.mat
+wandb/
+*.log
+*.out
+*.err
+
+# Data files
+*.feather
+*.csv
+!config/cell_rules.csv
+!config/cells.csv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Sensitivity Analysis
+Sensitivity_Analysis/*.sh
+Sensitivity_Analysis/df_complete.db
+Sensitivity_Analysis/*.svg
+Sensitivity_Analysis/*.feather
+
+# Large data files
+*.h5
+*.hdf5
+
+# Local configuration
+config/user_parameters.xml
+
+# Documentation builds
+docs/_build/
